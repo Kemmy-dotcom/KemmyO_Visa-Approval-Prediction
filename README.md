@@ -1,4 +1,4 @@
-# Visa-Approval-Prediction
+# Visa Approval Prediction
 Predictive Model for visa approval status
 ## Problem Statement  
 The visa approval process is often subjective and time-consuming. By analyzing applicant data and identifying key factors influencing approval status, we can:
