@@ -88,4 +88,4 @@ Based on the model's insights, visa applicants are more likely to succeed if the
 ## 🚀 How to Run the Project  
 1. Clone this repository:
    ```bash
-   git clone https://github.com/kemmy-dotcom/Visa-Approval-Prediction.git
+   git clone https://github.com/kemmy-dotcom/KemmyO_Visa-Approval-Prediction.git
