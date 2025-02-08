@@ -50,22 +50,27 @@ The visa approval process is often subjective and time-consuming. By analyzing a
 ---
 
 ## 🤖 Model Performance  
-The final model achieved the following metrics:
-- **Accuracy**: 88%  
-- **Precision**: 85%  
-- **Recall**: 90%  
-- **F1-Score**: 87%  
+Tuned AdaBoost Classifier and Stacking Classifier have the highest F1 scores on the testing set and generalised well on both training and testing set.
+
+The final model - Tuned AdaBoost Classifier will be chosen as the final model because Recall is higher at 0.87
+Achieved the following metrics:
+- **Recall**: 87.30%  
+- **Precision**: 78.41%  
+- **Accuracy**: 75.10%  
+- **F1-Score**: 82.62%  
 
 | Model               | Accuracy | Precision | Recall | F1-Score |
 |---------------------|----------|-----------|--------|----------|
-| Logistic Regression | 84%      | 82%       | 86%    | 84%      |
-| Random Forest       | 88%      | 85%       | 90%    | 87%      |
-| XGBoost             | 89%      | 86%       | 91%    | 88%      |
+| Stacking Classifier | 75.79%      | 78.88%       | 86.74%    | 82.62%      |
+| Tuned Random Forest | 74.80%      | 77.85%       | 87.82%    | 82.53%      |
+| Tuned Gradient Boost | 74.42% | 76.98% | 88.82% | 82.48% |
+| Tuned XGBoost Classifier | 75.25%      | 78.99%       | 86.49%    | 82.57%      |
 
 ---
 
 ## 📈 Recommendations  
 Based on the model's insights, visa applicants are more likely to succeed if they:
+1. **Job Experience**: Possess job experience in full-time position.
 1. **Occupation**: Work in industries with higher visa approval rates (e.g., IT, healthcare).  
 2. **Education**: Possess advanced degrees (e.g., Master’s or Ph.D.).  
 3. **Salary**: Earn salaries above the threshold of $80,000/year.  
@@ -74,7 +79,7 @@ Based on the model's insights, visa applicants are more likely to succeed if the
 
 ## 🛠 Tools & Technologies  
 - **Programming Languages:** Python  
-- **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, XGBoost  
+- **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, Sklearn.ensemble, Sklearn, Sklearn.metrics, Slearn.model_selection, XGBoost  
 - **Visualization:** Matplotlib, Seaborn  
 - **Version Control:** Git, GitHub  
 
